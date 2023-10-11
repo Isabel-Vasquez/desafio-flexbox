@@ -62,8 +62,11 @@ body {
 	border: none;
 	color: white;
 }
-button:hover {
+.contact_button:hover {
 	background-color: #cdc3e6;
+}
+.contact_button:focus {
+	background-color: #bec1bb;
 }
 
 .contact_container {
