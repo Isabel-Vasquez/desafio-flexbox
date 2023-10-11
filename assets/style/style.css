@@ -1,0 +1,104 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+body {
+	max-width: 1800px;
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 17%;
+	border: 2px solid #e8ebe4;
+}
+.contact_active-chat {
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	height: 3rem;
+	border-bottom: 2px solid #e8ebe4;
+}
+.contact_active-chat-inner {
+	display: flex;
+	gap: 10px;
+}
+.contact_img-perfil {
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}
+.contact_name-active {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #1b1f21;
+}
+.contact_active-now {
+	font-size: 10px;
+	color: #bec1bb;
+}
+.contact_icons-perfil {
+	display: flex;
+	gap: 15px;
+	color: #828485;
+}
+.contact_button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 7rem;
+	border-bottom: 2px solid #e8ebe4;
+}
+
+.contact_button {
+	width: 60%;
+	height: 40%;
+	background-color: #a491d2;
+	border: none;
+	color: white;
+}
+button:hover {
+	background-color: #cdc3e6;
+}
+
+.contact_container {
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	height: 4rem;
+	border-bottom: 2px solid #e8ebe4;
+	gap: 8%;
+}
+.contact_chat-img {
+	width: 15%;
+	border-radius: 50%;
+}
+.contact_name {
+	font-size: 14px;
+}
+.contact_chat {
+	font-size: 12px;
+}
+.main {
+	height: 100vh;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	text-align: center;
+}
+.main_img {
+	width: 20%;
+	padding-bottom: 12px;
+}
+.main h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+}
