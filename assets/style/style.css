@@ -1,9 +1,7 @@
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;*/
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: 0;
+	box-sizing: border-box;
 }
 body {
 	max-width: 1800px;
